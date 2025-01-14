@@ -22,7 +22,7 @@ CompanyName = 'Unknown'
 Copyright = '(c) Kurt Marvin. All rights reserved.'
 
 # Description of the functionality provided by this module
-# Description = ''
+Description = 'This module provides helper functions for accessing Manage Engine Key Manager Plus using the API'
 
 # Minimum version of the PowerShell engine required by this module
 # PowerShellVersion = ''
@@ -93,19 +93,19 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        # Tags = @()
+        Tags = @('Key','Certificates','Certificate','Manage','Engine','REST','API')
 
         # A URL to the license for this module.
-        # LicenseUri = ''
+        LicenseUri = 'https://github.com/TechWacko/ME.KMP/blob/main/LICENSE'
 
         # A URL to the main website for this project.
-        # ProjectUri = ''
+        ProjectUri = 'https://github.com/TechWacko/ME.KMP'
 
         # A URL to an icon representing this module.
         # IconUri = ''
 
         # ReleaseNotes of this module
-        # ReleaseNotes = ''
+        ReleaseNotes = 'https://github.com/TechWacko/ME.KMP/blob/main/README.md'
 
         # Prerelease string of this module
         # Prerelease = ''
@@ -121,7 +121,7 @@ PrivateData = @{
 } # End of PrivateData hashtable
 
 # HelpInfo URI of this module
-# HelpInfoURI = ''
+HelpInfoURI = 'https://github.com/TechWacko/ME.KMP/blob/main/README.md'
 
 # Default prefix for commands exported from this module. Override the default prefix using Import-Module -Prefix.
 # DefaultCommandPrefix = ''
